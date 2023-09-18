@@ -21,7 +21,12 @@ button {
     border-radius: 120px;
     font-size: 200px;
     color: #FFEEDF;
-    font-family: "Montserrat", sans-serif; 
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+span {
+    height: 265px;
 }
