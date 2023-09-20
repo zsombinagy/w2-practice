@@ -1,10 +1,10 @@
-/* function logger(param) {
+function logger(param) {
     console.log(param)
 }
  
 
 
-
+/* 
 function logTheSumOfTwoNumbers (x, y) {
 
     console.log(x + y)
@@ -26,7 +26,7 @@ logTheSumOfTwoNumbers(sumOfTwoNumbers(10, 5), 5) */
 
 
 
-calculateAreaOfTheCircle(4)
+
 
 function calculateNerdSurface (a) {
     let surface = 0;
@@ -40,8 +40,11 @@ function calculateAreaOfTheCircle (r) {
     let area = 0;
     area = Math.PI * r * 2; /* calculate the circle area */
     area = Math.ceil(area) /* round the value up*/
-    console.log('The circle area is ' + area + "cm2");
-    return area;
+    return `The ${r}cm radius circle area about ${area}cm2`;
 }
 
 
+
+
+
+logger(calculateAreaOfTheCircle(3))
