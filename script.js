@@ -40,7 +40,7 @@ function calculateAreaOfTheCircle (r) {
     let area = 0;
     area = Math.PI * r * 2; /* calculate the circle area */
     area = Math.ceil(area) /* round the value up*/
-    return `The ${r}cm radius circle area about ${area}cm2`;
+    return `The ${r}cm radius circle  ${area}cm2`;
 }
 
 
